@@ -86,24 +86,17 @@ var nuevo = function(){
 }
 
 
-
-var buscar = document.getElementById("buscar")
-
 var buscar = function(){
-    if(buscar == cedula){
-        alert(localStorage.setItem("nombres", nombres, "apellidos", apellidos))
-            
+    document.getElementById("cedula").value
+    localStorage.getItem("misdatos")
+    if(misdatos == cedula){
+        alert(nombres + apellidos)
+
     }
-
-}
-
 
    
 
-    
-    
-    
- 
+}
 
 
 mostrarinfo()
