@@ -85,18 +85,15 @@ var nuevo = function(){
 
 }
 
-
 var buscar = function(){
-    document.getElementById("cedula").value
-    localStorage.getItem("misdatos")
-    if(misdatos == cedula){
-        alert(nombres + apellidos)
-
-    }
-
-   
+    var cedula = datos.findIndex((x) => x.cedula == document.getElementById("cedula"))
+alert(datos[cedula].nombres  + datos[cedula].apellidos)
 
 }
+
+    
+
+
 
 
 mostrarinfo()
